@@ -68,5 +68,8 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "url": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs",
+	"manifest": "https://raw.githubusercontent.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/main/module.json",
+	"download": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/releases/download/v0.1/quest-for-the-frozen-flame-broken-tusk-npcs-0.1.zip"
 }
