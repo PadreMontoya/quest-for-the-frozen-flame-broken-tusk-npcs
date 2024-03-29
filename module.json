@@ -1,0 +1,72 @@
+{
+  "id": "quest-for-the-frozen-flame-broken-tusk-npcs",
+  "title": "Quest for the Frozen Flame - Broken Tusk NPCs",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A full set of NPC tokens for the Broken Tusk clan.  For consistency, all characters have been reimagined using Midjourney.  Gaps in the tribe roster have been filled in and inspired by u/PeterArtdrews from the Reddit post at https://www.reddit.com/r/Pathfinder2e/comments/108g16m/quest_for_the_frozen_flame_our_broken_tusk/",
+  "authors": [
+    {
+      "name": "PadreMontoya",
+      "email": "anthonygill08@gmail.com",
+      "discord": "padremontoya"
+    }
+  ],
+  "packs": [
+    {
+      "name": "falcon-clan-npcs",
+      "label": "Falcon House NPCs",
+      "path": "packs/falcon-clan-npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "moose-house-npcs",
+      "label": "Moose House NPCs",
+      "path": "packs/moose-house-npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "musk-ox-house-npcs",
+      "label": "Musk Ox House NPCs",
+      "path": "packs/musk-ox-house-npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "otter-house-npcs",
+      "label": "Otter House NPCs",
+      "path": "packs/otter-house-npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
