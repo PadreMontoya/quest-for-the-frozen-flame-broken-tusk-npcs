@@ -1,7 +1,7 @@
 {
   "id": "quest-for-the-frozen-flame-broken-tusk-npcs",
   "title": "Quest for the Frozen Flame - Broken Tusk NPCs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -62,14 +62,25 @@
       "label": "Otter House NPCs",
       "path": "packs/otter-house-npcs",
       "type": "Actor",
-      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "misc-npcs",
+      "label": "Misc NPCs",
+      "path": "packs/misc-npcs",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     }
   ],
   "url": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs",
-	"manifest": "https://raw.githubusercontent.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/main/module.json",
-	"download": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/releases/download/v0.1/quest-for-the-frozen-flame-broken-tusk-npcs-0.1.zip"
+  "manifest": "https://raw.githubusercontent.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/main/module.json",
+  "download": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/releases/download/v0.2/quest-for-the-frozen-flame-broken-tusk-npcs-v0.2.zip"
 }
