@@ -1,7 +1,7 @@
 {
   "id": "quest-for-the-frozen-flame-broken-tusk-npcs",
-  "title": "Quest for the Frozen Flame - Broken Tusk NPCs",
-  "version": "1.0.2",
+  "title": "Quest for the Frozen Flame - Broken Tusk NPCs and Misc Art",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -15,7 +15,7 @@
       }
     ]
   },
-  "description": "A full set of NPC tokens for the Broken Tusk clan.  For consistency, all characters have been reimagined using Midjourney.  Gaps in the tribe roster have been filled in and inspired by u/PeterArtdrews from the Reddit post at https://www.reddit.com/r/Pathfinder2e/comments/108g16m/quest_for_the_frozen_flame_our_broken_tusk/",
+  "description": "This module contains a full set of NPC tokens for the Broken Tusk clan, art for many of the monsters, as well as art for handouts.  For consistency, all characters have been reimagined using Midjourney.  Gaps in the tribe roster have been filled in and inspired by u/PeterArtdrews from the Reddit post at https://www.reddit.com/r/Pathfinder2e/comments/108g16m/quest_for_the_frozen_flame_our_broken_tusk/.  I'll likely update this pack as our group players through the campaign.",
   "authors": [
     {
       "name": "PadreMontoya",
@@ -62,6 +62,28 @@
       "label": "Otter House NPCs",
       "path": "packs/otter-house-npcs",
       "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "misc-npcs",
+      "label": "Misc NPCs",
+      "path": "packs/misc-npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "handouts",
+      "label": "Handouts",
+      "path": "packs/handouts",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -69,9 +91,9 @@
       "system": "pf2e"
     },
     {
-      "name": "misc-npcs",
-      "label": "Misc NPCs",
-      "path": "packs/misc-npcs",
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -82,5 +104,5 @@
   ],
   "url": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs",
   "manifest": "https://raw.githubusercontent.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/main/module.json",
-  "download": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/releases/download/v0.2/quest-for-the-frozen-flame-broken-tusk-npcs-v0.2.zip"
+  "download": "https://github.com/PadreMontoya/quest-for-the-frozen-flame-broken-tusk-npcs/releases/download/v0.3/quest-for-the-frozen-flame-broken-tusk-npcs-v0.3.zip"
 }
